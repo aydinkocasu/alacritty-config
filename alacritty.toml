@@ -1,0 +1,113 @@
+live_config_reload = true
+
+[colors.bright]
+black = "#7F7F7F"
+blue = "#5C5CFF"
+cyan = "#00FFFF"
+green = "#00FF00"
+magenta = "#FF00FF"
+red = "#FF0000"
+white = "#FFFFFF"
+yellow = "#FFFF00"
+
+[colors.cursor]
+cursor = "#FFFFFF"
+text = "#211E18"
+
+[colors.normal]
+black = "#000000"
+blue = "#0000EE"
+cyan = "#00CDCD"
+green = "#00CD00"
+magenta = "#CD00CD"
+red = "#CD0000"
+white = "#E5E5E5"
+yellow = "#CDCD00"
+
+[colors.primary]
+#background = "#010106"
+# --- Blues & Slates ---
+# background = "#101418" # Blue-black (Active)
+#background = "#010106"
+#background = "#010119" # NICE BLUE
+# background = "#0D1117" # GitHub dark
+# background = "#101820"
+# background = "#0D151F"
+# background = "#172A45" # Cobalt dusk (Vivid)
+# background = "#1B3358" # Rich sapphire (Brightest blue)
+# background = "#162936" # Steel cerulean
+
+# --- Neutrals & Charcoals ---
+# background = "#0F1115" # Almost black
+# background = "#121212" # Pure neutral
+# background = "#16181D" # Soft charcoal
+# background = "#1E2028" # Medium slate grey
+
+# --- Purples & Violets (Pairs well with Eldritch, Fluoromachine, Embark, Catppuccin) ---
+# background = "#100E17" # Deep midnight violet
+# background = "#140D1F" # Cyberpunk ultraviolet
+# background = "#17111E" # Smoked grape
+# background = "#211533" # Deep amethyst (Medium-vivid)
+# background = "#28193D" # Rich synthwave purple (Vivid)
+# background = "#2B1838" # Magenta-tinted velvet
+
+# --- Greens & Teals (Pairs well with Gruvbox, Everforest, Solarized Osaka) ---
+# background = "#0E1918" # Deep ocean emerald
+# background = "#122624" # Rich pine teal (Medium-vivid)
+# background = "#16302D" # Deep turquoise-green (Vivid)
+# background = "#1A3832" # Bright emerald forest
+# background = "#18291E" # Vivid moss green
+# background = "#1F3326" # Rich botanical green
+
+# --- Reds, Burgundies & Crimsons (Pairs well with Ashen, Sonokai) ---
+# background = "#160D0E" # Dark oxblood
+# background = "#1A0F12" # Deep burgundy
+# background = "#261217" # Rich wine red (Medium-vivid)
+# background = "#2E151B" # Vivid crimson velvet (Vivid)
+# background = "#361820" # Bright maroon-ruby (Brightest red)
+# background = "#2B1614" # Warm terracotta dark
+
+# --- Browns, Ambers & Warm Espresso (Pairs well with Gruvbox Material, Oldworld) ---
+# background = "#15110F" # Dark espresso
+# background = "#181310" # Roasted coffee
+# background = "#16120D" # Warm bronze-black
+# background = "#14100C" # Charred umber
+# background = "#241B14" # Rich roasted chestnut (Medium-vivid)
+
+# --- Native Theme Backgrounds (Eldritch & Fluoromachine) ---
+# background = "#212337" # Eldritch (Default)
+# background = "#171928" # Eldritch (Darker palette)
+#background = "#200933" # Fluoromachine (Default - the exact one you saw earlier)
+# background = "#261A3D" # Fluoromachine (Retrowave variant)
+# background = "#181A1F" # Fluoromachine (Delta variant)
+
+[colors.selection]
+background = "#5C5CFF"
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[font]
+size = 12.0
+
+[font.normal]
+#family = "0xProto Nerd Font Mono"
+#family = "BigBlueTerm437 Nerd Font Mono"
+#family = "MartianMono Nerd Font Mono"
+#family = "MesloLGL Nerd Font Mono"
+#family = "MesloLGLDZ Nerd Font Mono"
+#family = "MesloLGM Nerd Font Mono"
+#family = "MesloLGS Nerd Font Mono"
+family = "RobotoMono Nerd Font Mono"
+
+[window]
+#opacity = 0.75
+opacity = 0.90
+#opacity = 1
+blur = true
+
+[keyboard]
+bindings = [
+  { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
