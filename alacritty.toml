@@ -93,18 +93,25 @@ size = 12.0
 
 [font.normal]
 #family = "0xProto Nerd Font Mono"
+#family = "3270 Nerd Font Mono"
 #family = "BigBlueTerm437 Nerd Font Mono"
+#family = "BigBlueTermPlus Nerd Font Mono"
+#family = "EnvyCodeR Nerd Font Mono"
+#family = "GohuFont 11 Nerd Font Mono"
+#family = "GohuFont 14 Nerd Font Mono"
+#family = "GohuFont uni11 Nerd Font Mono"
+#family = "GohuFont uni14 Nerd Font Mono"
 #family = "MartianMono Nerd Font Mono"
 #family = "MesloLGL Nerd Font Mono"
 #family = "MesloLGLDZ Nerd Font Mono"
 #family = "MesloLGM Nerd Font Mono"
+#family = "MesloLGMDZ Nerd Font Mono"
 #family = "MesloLGS Nerd Font Mono"
+#family = "MesloLGSDZ Nerd Font Mono"
 family = "RobotoMono Nerd Font Mono"
 
 [window]
-#opacity = 0.75
 opacity = 0.90
-#opacity = 1
 blur = true
 
 [keyboard]
